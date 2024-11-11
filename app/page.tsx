@@ -1,4 +1,4 @@
-import Footer from "@/components/Footer";
+// import Footer from "@/components/Footer";
 import LoginForm from "@/components/forms/LoginForm";
 import Image from "next/image";
 // import { IoIosArrowBack } from "react-icons/io";
@@ -11,7 +11,6 @@ export default function Home() {
         <p>Back</p>
       </div> */}
       {/*  screen */}
-
       <div className="bg-[#FFFFFF] min-h-screen w-full flex justify-between max-md:flex-col  ">
         {/* back button */}
         {/* LeftSIde */}
@@ -57,6 +56,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      {/* Footer */}
       {/* <Footer /> */}
     </>
   );
